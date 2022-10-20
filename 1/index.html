@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <table>
+            <form>
+                <thead class="container">
+                    <th colspan="2">Sign Up</th>
+                </thead>
+                <tr>
+                    <td class="label-text">First Name</td>
+                    <td><input type="text" placeholder="Enter First Name"></td>
+                </tr>
+                <tr>
+                    <td class="label-text"> Last Name</td>
+                    <td><input type="text" placeholder="Enter Last Name"></td>
+                </tr>
+                <tr>
+                    <td class="label-text"> Dete of Birth</td>
+                    <td>
+                        <select><option>Data</option></select>
+                        <select><option>Month</option></select>
+                        <select><option>Year</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-text">Gender</td>
+                    <td>
+                        <input type="radio" name="gender">
+                        <label for="gender">Male</label>
+                        <input type="radio" name="gender">
+                        <label for="gender">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-text">County</td>
+                    <td><select><option>Country</option></select></td>
+                </tr>
+                <tr>
+                    <td class="label-text">E-mail</td>
+                    <td><input type="email" class="email" placeholder="Enter E-mail"></td>
+                </tr>
+                <tr>
+                    <td class="label-text">Phone</td>
+                    <td><input type="tel" placeholder="Enter Phone"></td>
+                </tr>
+                <tr>
+                    <td class="label-text">Password</td>
+                    <td><input type="password" class="pass"></td>
+                </tr>
+                <tr>
+                    <td class="label-text">Confirm Password</td>
+                    <td><input type="password" class="re-pass"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                    <input type="checkbox" class="check-box">
+                    <label>I Agree to the Terms of use</label>
+                    </td>
+                </tr>
+                <tfoot class="container">
+                    <td colspan="2">
+                        <div id="footer-btn">
+                            <button type="submit" class="submit"> Submit </button>
+                            <button class="cancel"> Cancel </button>
+                        </div>
+                    </td>
+               
+                </tfoot>
+                
+            </form>
+
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
