@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+table {
+  margin: auto;
+  width: 450px;
+  height: 550px;
+  border: 2px solid gray;
+  border-spacing: 5px;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: #ffffaa;
+  color: red;
+  font-size: 1.5rem;
+}
+
+td {
+  background-color: #00ccff;
+  padding: 2px 8px;
+}
+
+button {
+  font-size: 1rem;
+  width: 130px;
+  height: 40px;
+  margin: 0 4px;
+}
