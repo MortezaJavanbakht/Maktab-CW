@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  width: 350px;
+  height: 150px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td,
+th {
+  border: 2px solid black;
+  padding: 8px;
+}
+
+th {
+  font-size: 1.3rem;
+}
+
+button {
+  display: block;
+  margin: auto;
+}
+
+input {
+  width: 88%;
+  border: none;
+  outline: none;
+}
+
+td > div {
+  border: 1px solid black;
+}
