@@ -1,30 +1,31 @@
 import "./App.css";
 import Card from "./components/Card/Card";
+import bergerImage from "./assets/Image/salad.png"
 
 function App() {
   return (
     <>
       <div className={"container"}>
         <div className={"leftBox"}>
-          <div>
+          <div className="text">
             <label>جمع کل سفارشات:</label>
             <span>0 تومان</span>
           </div>
-          <div>
+          <div className="text">
             <label>حق سرویس و کارمزد:</label>
             <span>0 تومان</span>
           </div>
-          <div>
+          <div className="text">
             <label>تخفیف:</label>
             <span>0 درصد</span>
           </div>
-          <div>
+          <div className="Discount">
             <input type="text" placeholder={"کد تخفیف"}></input>
             <div>
-              <i class="bi bi-check-square-fill"></i>
+              
             </div>
           </div>
-          <div className="totalPrice">
+          <div className="totalPrice text">
             <label>مبلغ قابل پرداخت:</label>
             <span>0 تومان</span>
           </div>
@@ -39,7 +40,7 @@ function App() {
               id="burger"
               title={"همبرگر معمولی"}
               price={"10000"}
-              imgSrc={""}
+              imgSrc={bergerImage}
             />
             <Card
               id="burger2"
